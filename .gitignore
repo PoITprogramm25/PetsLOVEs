@@ -1,0 +1,51 @@
+# dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Expo
+.expo/
+web-build/
+dist/
+
+# iOS
+ios/
+*.xcworkspace
+*.xcuserdata
+*.xcodeproj
+Pods/
+
+# Android
+android/
+*.keystore
+*.jks
+*.p8
+*.p12
+
+# Debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+*.apk
+*.ipa
+*.aab
